@@ -14,6 +14,7 @@
 # for i in range(1,101):
 #     print('Fizz' * (i % 3 == 0) + 'Buzz' * (i % 5 == 0) or i)
 
+# a,b = list(map(int,input().split())) 로 받아도됨
 a = list(map(int, input().split()))
 for i in range(a[0],a[1]):
     if i % 35 == 0:
