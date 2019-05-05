@@ -1,9 +1,24 @@
-a = input().split()
+# import string
 
-a.find('the')
+# a = input().split()
+# c = 0
+
+# for i in range(len(a)):
+#     a[i] = a[i].strip(string.punctuation).strip()
+#     if a[i] == 'the':
+#             c+=1
+
+
+# print(c) 
+
+
+###################################
+
+a = list(map(int,input().split(';')))
+a.sort(reverse=True)
+
+for i in range(len(a)):
+        print('{0:>9,}'.format(a[i]))
 
 
 
-19.5 연습문제 (별로 산그리기) 다시 생각해볼 필요 있음
-23.7 지뢰찾기 문제 해결 필요
-24.5 심사문제부터 진행 필요
